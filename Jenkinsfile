@@ -2,8 +2,8 @@ pipeline {
     agent none 
     environment {
         IMAGE_NAME = "ic-webapp"
-        TAG_IMAGE = "v2.0"
-        DOCKERHUB_ID = "ulrichsteve"
+        TAG_IMAGE = "v1.2"
+        DOCKERHUB_ID = "maysa56"
         DOCKERHUB_PASSWORD = credentials('dockerhub_password') 
         HOST_IP = 54.157.240.227
         APP_EXPOSED = 8080
